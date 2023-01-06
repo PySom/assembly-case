@@ -1,0 +1,66 @@
+.reduced-width .left-text{
+    margin-right: 30px;
+}
+
+.reduced-width .form-input {
+    width: 90px;
+}
+
+.reduced-width{
+    flex: 1;
+}
+
+.reduced-left .two-column {
+    margin-right: 20px;
+}
+
+.reduced-right .two-column {
+    margin-left: 20px;
+}
+
+.full-input-width .form-input{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.more-padding{
+    padding-bottom: 30px;
+}
+
+.disabled-margin{
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+
+/*Media query*/
+@media (max-width: 760px) {
+    .reduced-width .form-input {
+        width: auto;
+    }
+
+    .reduced-left .two-column {
+        margin-right: 0;
+    }
+
+    .reduced-right .two-column {
+        margin-left: 0;
+    }
+    .full-input-width .form-input {
+        width: auto;
+        margin-left: 0;
+    }
+
+    .form-area{
+        flex-direction: column;
+    }
+    .form-area > fieldset{
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .logo{
+        width: 30%;
+        align-self: center;
+    }
+}

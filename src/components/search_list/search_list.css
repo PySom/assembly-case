@@ -1,0 +1,50 @@
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+      flex-direction:row;
+     width:100%;
+     justify-content: space-between;
+     gap: 30px;
+    }
+    h5.count{
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .card {  
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      width: 250px;
+      height:200px;
+      text-align:center;
+      padding: 10px;
+    }
+    h2{    
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    
+    .imgRes{
+      width:280px;
+      max-height:60%;
+    }
+    .caption{
+      position:relative;
+      height:40%;
+      padding:10px;
+    }
+    .email{
+      color:grey;
+    }
+    footer{
+      position:absolute;
+      left:0;
+      bottom:0;
+      width:100%;
+    }
+
+/*Media query*/
+@media (max-width: 760px) {
+  .card{
+    width: 100%;
+  }
+}

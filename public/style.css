@@ -1,0 +1,190 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+.d-flex{
+    display: flex;
+}
+.header-container {
+    margin-bottom: 70px;
+}
+
+
+.logo {
+    object-fit: cover;
+}
+
+.form-description {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.left-text {
+    font-size: 18px;
+}
+
+
+.admin-link {
+    margin-top: 15px;
+}
+.flex-one{
+    flex: 1;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-self-end{
+    align-self: flex-end;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+.no-margin{
+    margin: 0;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.text-upper{
+    text-transform: uppercase;
+}
+.text-lower {
+    text-transform: lowercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-capitalize-imp {
+    text-transform: capitalize !important;
+}
+
+.app-accent-color {
+    color: #F8F8F8;
+}
+.app-accent-bg-color {
+    background-color: #F8F8F8;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.app-primary-color {
+    color: #13184D;
+}
+
+.app-primary-bg-color {
+    background-color: #13184D;
+}
+
+.app-button-color {
+    background-color: #C7885A;
+}
+
+.form-container {
+    background-color: white;
+    border: 1px solid #D6D8DE;
+    border-radius: 21px;
+    padding: 80px;
+}
+
+.text-regular{
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-light {
+    font-weight: 400;
+}
+
+.text-lighter {
+    font-weight: 300;
+}
+
+.gap-30{
+    gap:30px;
+}
+
+.app-padding{
+    padding: 5% 10%;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.text-left{
+    text-align: left !important;
+
+}
+
+.no-desktop {
+    display: none;
+}
+
+.full-width{
+    width: 100%
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.no-border{
+    border: none;
+}
+
+/*Media query*/
+@media (max-width: 760px) {
+    .app-padding {
+        padding: 50px 20px;
+    }
+    .small-text {
+        display: block;
+    }
+    .form-container {
+        background-color: #F8F8F8;
+        border: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+    .form-description {
+        font-size: 24px;
+    }
+
+    .left-text {
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+    .no-mobile{
+        display: none;
+    }
+    .no-desktop{
+        display: flex;
+    }
+}

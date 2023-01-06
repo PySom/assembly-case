@@ -1,0 +1,15 @@
+.app-button{
+    color: white;
+    width:30%;
+    padding: 12px 0;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+}
+
+/*Media query*/
+@media (max-width: 760px) {
+    .app-button {
+        width: 100%;
+    }
+}
