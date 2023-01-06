@@ -2,6 +2,7 @@ import { Route } from "react-router-dom";
 import Layout from "./components/layout/layout";
 import Home from "./pages/home/home";
 
+//Root file
 export default function App() {
     return (
         <Layout>
