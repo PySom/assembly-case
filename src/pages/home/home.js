@@ -1,7 +1,7 @@
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useState } from 'react';
-import { useHistory, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import api from '../../api/remote/api';
 import AppButton from '../../components/app_button/app_button';
 import FormContainer from '../../components/form_container/form_container';
@@ -15,7 +15,6 @@ export default function Home() {
     const [isBusy, setIsBusy] = useState(false);
     const [data, setData] = useState(null);
     const [error, setError] = useState('');
-    const history = useHistory();
 
     const {term} = useParams();
 
@@ -35,7 +34,7 @@ export default function Home() {
     }, [term])
 
     const onClick = async () => {
-        history.replace(`/search/${searchProps.value}`);
+        window.history.pushState(null, `Search ${searchProps.value}`, `/search/${searchProps.value}`);
         try{
             setIsBusy(true);
             setData(null);
@@ -56,8 +55,15 @@ export default function Home() {
             </div>
             <div className='form-area d-flex space-between align-center mt-20'>
                 <fieldset className='gap-30 no-border d-flex align-center no-margin no-padding' name='Choose search type'>
-                    <FormRadio name='search_type' checked={searchType === SEARCH_TYPE.USER} value={SEARCH_TYPE.USER} label='User' onChange={onOptionChange}  />
-                    <FormRadio name='search_type' checked={searchType === SEARCH_TYPE.ORG} value={SEARCH_TYPE.ORG} label='Organization' onChange={onOptionChange}  />
+                    <FormRadio name='search_type' 
+                        checked={searchType === SEARCH_TYPE.USER} 
+                        value={SEARCH_TYPE.USER} label='User' 
+                        onChange={onOptionChange} />
+                    <FormRadio name='search_type' 
+                        checked={searchType === SEARCH_TYPE.ORG} 
+                        value={SEARCH_TYPE.ORG} 
+                        label='Organization' 
+                        onChange={onOptionChange}  />
                 </fieldset>
                 <AppButton onClick={onClick} />
             </div>
@@ -71,8 +77,6 @@ export default function Home() {
                     : <p className='mt-20'>{error}</p>
             
             }
-            
-            
             
         </FormContainer>
     );

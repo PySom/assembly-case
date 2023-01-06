@@ -15,7 +15,6 @@ export const handleInvalidModel = (model) => {
         }
     }
     build = build && build.toString()
-    console.log(build)
     return build;
 }
 
