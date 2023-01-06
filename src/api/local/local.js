@@ -1,4 +1,4 @@
-﻿
+
 const itemIsValid = (item) => {
     if (Array.isArray(item)) return !!item.length
     return !!item

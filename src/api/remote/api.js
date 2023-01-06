@@ -1,4 +1,4 @@
-﻿import { handleError } from "../error_handler/error_handler";
+import { handleError } from "../error_handler/error_handler";
 import axios from "axios";
 import ls from "../local/local";
 import { baseUrl } from './url';
