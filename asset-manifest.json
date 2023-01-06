@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7571b542.css",
+    "main.js": "/static/js/main.4cca5449.js",
+    "static/js/787.caf32895.chunk.js": "/static/js/787.caf32895.chunk.js",
+    "static/media/assemblyLogo.svg": "/static/media/assemblyLogo.c1812910587091982ba77894331b0675.svg",
+    "index.html": "/index.html",
+    "main.7571b542.css.map": "/static/css/main.7571b542.css.map",
+    "main.4cca5449.js.map": "/static/js/main.4cca5449.js.map",
+    "787.caf32895.chunk.js.map": "/static/js/787.caf32895.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7571b542.css",
+    "static/js/main.4cca5449.js"
+  ]
+}
