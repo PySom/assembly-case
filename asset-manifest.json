@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.568bd07a.css",
-    "main.js": "./static/js/main.1f5ffee5.js",
+    "main.css": "./static/css/main.7fc30e35.css",
+    "main.js": "./static/js/main.af295b12.js",
     "static/js/787.caf32895.chunk.js": "./static/js/787.caf32895.chunk.js",
     "static/media/assemblyLogo.svg": "./static/media/assemblyLogo.c1812910587091982ba77894331b0675.svg",
     "index.html": "./index.html",
-    "main.568bd07a.css.map": "./static/css/main.568bd07a.css.map",
-    "main.1f5ffee5.js.map": "./static/js/main.1f5ffee5.js.map",
+    "main.7fc30e35.css.map": "./static/css/main.7fc30e35.css.map",
+    "main.af295b12.js.map": "./static/js/main.af295b12.js.map",
     "787.caf32895.chunk.js.map": "./static/js/787.caf32895.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.568bd07a.css",
-    "static/js/main.1f5ffee5.js"
+    "static/css/main.7fc30e35.css",
+    "static/js/main.af295b12.js"
   ]
 }
