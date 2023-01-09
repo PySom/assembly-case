@@ -55,7 +55,7 @@
         flex-direction: column;
     }
     .form-area > fieldset{
-        align-items: flex-start;
+        align-self: flex-start;
         margin-bottom: 20px;
     }
 
