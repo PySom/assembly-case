@@ -66,9 +66,13 @@ export default function Home() {
                         onChange={onOptionChange}  />
                 </fieldset>
                 <AppButton onClick={onClick} />
+                
             </div>
+            
             {isBusy 
-                ? <FontAwesomeIcon icon={faSpinner} spin={true} />
+                ? <div className='d-flex justify-center'>
+                    <FontAwesomeIcon icon={faSpinner} spin={true} className='home-spinner' />
+                  </div>
                 : data 
                     ? 
                         data.total_count > 0

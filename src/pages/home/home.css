@@ -32,6 +32,11 @@
     margin-bottom: 130px;
 }
 
+.home-spinner{
+    margin-top: 50px;
+    font-size: 70px;
+}
+
 
 /*Media query*/
 @media (max-width: 760px) {
@@ -62,5 +67,9 @@
     .logo{
         width: 30%;
         align-self: center;
+    }
+
+    .home-spinner{
+        font-size: 35px;
     }
 }
